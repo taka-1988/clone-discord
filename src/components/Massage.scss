@@ -1,0 +1,39 @@
+.massage {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .useraccount {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h4 {
+            color: white;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .timestamp {
+            color: rgb(211, 211, 211);
+            font-size: 13px;
+        }
+
+        img {
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        .massage {
+            background-color: rgb(32, 32, 32);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+            color: white;
+            font-size: 15px;
+        }
+    }
+}
